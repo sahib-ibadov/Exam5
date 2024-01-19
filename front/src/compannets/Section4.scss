@@ -1,0 +1,20 @@
+.card-boody{
+    h5{
+        font-family: cursive;
+    }
+    p{
+        color: gray;
+    }
+}
+.section4__top{
+    width: 500px;
+    height: 2px;
+    background-color: orangered;
+}
+.section4__dif{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+}

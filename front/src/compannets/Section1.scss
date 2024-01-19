@@ -1,0 +1,83 @@
+.mySwiper {
+  width: 100%;
+  height: 100vh;
+}
+
+
+.swiper {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.section1__swipper {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  img {
+    width: 60%;
+    margin: 0 auto;
+    display: flex;
+
+    height: 80%;
+    justify-content: center;
+    align-items: center;
+
+  }
+}
+.section2__swipper {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  img {
+    width: 60%;
+    margin: 0 auto;
+    display: flex;
+
+    height: 80%;
+    justify-content: center;
+    align-items: center;
+
+  }
+}
+
+.section1_in {
+  position: absolute;
+  transform: translate(50%, 50%);
+  z-index: 157;
+  left: 30%;
+  top: 20%;
+
+  h1  {
+    color: white;
+    font-size: 60px;
+  }
+  p{
+    color: white;
+    font-size: 20px;
+    margin-left: 100px;
+  }
+}
+
+.section2_in {
+  position: absolute;
+  transform: translate(50%, 50%);
+  z-index: 157;
+  left: 30%;
+  top: 20%;
+
+
+  h1 {
+    color: white;
+    font-size: 60px;
+  }
+  p{
+    font-size: 20px;
+    font-family: cursive;
+    margin-left: 60px;
+    color: white;
+  }
+}

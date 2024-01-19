@@ -1,0 +1,20 @@
+.header__all{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 20px;
+}
+.header__button{
+    display: flex;
+    gap: 30px;
+    font-size: 20px;
+    :hover{
+        color: orangered;
+    }
+    a{
+        color: gray;
+        text-decoration: none;
+        font-family: cursive;
+    }
+}
